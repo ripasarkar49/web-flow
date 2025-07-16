@@ -5,7 +5,7 @@
 }
 
 .bg-color {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(244, 242, 242, 0.9);
 }
 
 .logo {
@@ -23,6 +23,10 @@
     border: none;
     padding: 12px 36px;
     font-weight: bold;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
 }
 
 nav {
@@ -82,23 +86,162 @@ main {
     text-align: center;
     margin-top: 50px;
 }
-.user-title{
+
+.user-title {
     font-size: 38px;
     font-weight: bold;
 }
-.user-datas{
+
+.user-datas {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
-.user-data-title{
+
+.user-data-title {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
     font-family: 'Inter', sans-serif;
 }
-.user-data-subtitle{
+
+.user-data-subtitle {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.feedback-section {
+    margin-top: 60px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.feedback-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.card-design {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+    padding: 24px 24px;
+}
+
+.card-1 {
+    background-color: #ffff;
+    border-radius: 14px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-img {
+    clip-path: circle(50%);
+}
+
+.ready-section {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 50px;
+    padding: 71px 150px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.ready-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ready-img {
+    margin-top: 20px;
+
+}
+
+.touch-section {
+    display: flex;
+    margin-top: 50px;
+    padding: 71px 0;
+    justify-content: space-between;
+
+
+}
+
+.touch-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+main input[type="text"],
+main input[type="email"],
+main textarea {
+    height: 54px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+main textarea {
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+}
+
+main label {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.touch-btn {
+    width: 100%;
+}
+
+footer {
+    padding: 104px 455px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.footer-tile {
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-subtitle {
+    color: #8987A1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #8987A1;
+
 }
